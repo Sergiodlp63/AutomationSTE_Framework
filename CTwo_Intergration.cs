@@ -37,11 +37,11 @@ namespace NIMSAutomationSTE
             }
             catch
             {
-
+                MyResults.Failed_Test("HTML Controls: Could not locate HTML 'x' object");
+                return false;
             }
             MyResults.Successful_Test();
-            MyResults.Failed_Test("HTML Controls: Could not locate HTML 'x' object");
-            return false;
+            return true;
         }
 
         public Boolean HTMLObject_y_TrueFalse()

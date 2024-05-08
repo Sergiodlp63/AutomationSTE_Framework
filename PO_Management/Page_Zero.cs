@@ -20,17 +20,17 @@ namespace ComponentOne.PO_Management
 
             if (Boom.HTMLObject_x_TrueTrue() == false)
             {
-                MyResults.Failed_Test("BZNESS Controls: Could Not Find Method 'A' on SUT page. ");
+                MyResults.Failed_Test("Page0 Controls: Could not click x button on page0.  ");
                 return false;
             }
             if (Boom.HTMLObject_y_TrueTrue() == false)
             {
-                MyResults.Failed_Test("BZNESS Controls: Could Not Find Method 'B' on SUT page. ");
+                MyResults.Failed_Test("Page0 Controls: Could not select y option from dropdown box on page0. ");
                 return false;
             }
             if (Boom.HTMLObject_z_TrueFalse() == false)
             {
-                MyResults.Failed_Test("BZNESS Controls: Could Not Find Method 'C' on SUT page. ");
+                MyResults.Failed_Test("Page0 Controls: Could not select z tile from on page0. ");
                 return false;
             }
             return true;
@@ -43,17 +43,17 @@ namespace ComponentOne.PO_Management
 
             if (Boom.HTMLObject_x_TrueTrue() == false)
             {
-                MyResults.Failed_Test("BZNESS Controls: Could Not Find Method 'A' on SUT page. ");
+                MyResults.Failed_Test("Page0 Controls: Could not click x button on page0.  ");
                 return false;
             }
             if (Boom.HTMLObject_y_TrueTrue() == false)
             {
-                MyResults.Failed_Test("BZNESS Controls: Could Not Find Method 'B' on SUT page.");
+                MyResults.Failed_Test("Page0 Controls: Could not select y option from dropdown box on page0. ");
                 return false;
             }
             if (Boom.HTMLObject_x_TrueTrue() == false)
             {
-                MyResults.Failed_Test("BZNESS Controls: Could Not Find Method 'C' on SUT page. ");
+                MyResults.Failed_Test("Page0 Controls: Could not select z tile from on page0. ");
                 return false;
             }
             return true;

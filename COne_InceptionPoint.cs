@@ -63,7 +63,7 @@ namespace NIMSAutomationSTE
                     Generate_OutputMessage += " ";
                 }
 
-                Generate_OutputMessage += "\r\n\r\n" + Convert.ToString(mGoodCount) + " test(s) passed";
+                Generate_OutputMessage += "\r\n\r\n" + Convert.ToString(mGoodCount) + " test(s) passed.";
 
                 Generate_OutputMessage += "\r\n\r\n This specific Set: \r\n";
 

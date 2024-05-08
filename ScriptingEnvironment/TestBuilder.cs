@@ -15,22 +15,23 @@ namespace NIMSAutomationSTE.ScriptingEnvironment
             page_Zero = new Page_Zero(results);
         }
 
-        public void TestBuilder_LaunchSimulation_TrueFalse()
+        public void TestBuilder_RegressionTC_0001_TrueFalse()
         {
 
             //start of script
             if (page_Zero.Create_Page0_UseCase_TrueTrue() == false)
             {
-                _results.Failed_Test("TB: Could not validate a completed Page0 UseCase(n) transaction.");
+                _results.Failed_Test("Test Builder: Could not validate E2E TC001 on the Page0 portion of the test. ");
                 return;
             }
+            _results.Successful_Test();
 
             if (page_One.Create_Page1_UseCase_TrueFalse() == false)
             {
-                _results.Failed_Test("TB: Could not validate a completed Page1 UseCase(n) transaction.");
+                _results.Failed_Test("Test Builder: Could not validate E2E TC001 on the Page1 portion of the test.");
                 return;
             }
-
+            _results.Successful_Test();
 
         }
 

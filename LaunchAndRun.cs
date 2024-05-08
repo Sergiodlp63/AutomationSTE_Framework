@@ -25,7 +25,7 @@ namespace ComponentOne
 
             TestBuilder tb = new TestBuilder(results);
 
-            tb.TestBuilder_LaunchSimulation_TrueFalse();
+            tb.TestBuilder_RegressionTC_0001_TrueFalse();
 
 
             // Assertion method
